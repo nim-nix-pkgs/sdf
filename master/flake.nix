@@ -1,5 +1,5 @@
 {
-  description = ''Signed Distance Field builder for contour texturing in Nim'';
+  description = ''Sweep-and-update Euclidean distance transform functions'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-SDF-master.flake = false;
   inputs.src-SDF-master.owner = "Halsys";
-  inputs.src-SDF-master.ref   = "refs/heads/master";
+  inputs.src-SDF-master.ref   = "master";
   inputs.src-SDF-master.repo  = "SDF.nim";
   inputs.src-SDF-master.type  = "github";
   
